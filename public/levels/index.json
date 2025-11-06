@@ -1,0 +1,15 @@
+{
+  "levels": [
+    {
+      "id": "sunset-park",
+      "name": "Parque al Atardecer",
+      "description": "Nivel introductorio con 5 diferencias.",
+      "file": "level-1.json",
+      "difficulty": "beginner",
+      "timeLimit": 120,
+      "bonusPerSecond": 10,
+      "pointsPerHit": 200,
+      "penaltyPerMiss": 50
+    }
+  ]
+}

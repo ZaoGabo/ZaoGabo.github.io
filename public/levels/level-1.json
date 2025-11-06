@@ -1,0 +1,18 @@
+{
+  "id": "sunset-park",
+  "name": "Parque al Atardecer",
+  "description": "Observa el parque y encuentra cinco diferencias antes de que se acabe el tiempo.",
+  "originalImage": "/images/original.png",
+  "modifiedImage": "/images/modified.png",
+  "timeLimit": 120,
+  "bonusPerSecond": 10,
+  "pointsPerHit": 200,
+  "penaltyPerMiss": 50,
+  "differences": [
+    { "id": 1, "type": "circle", "x": 50, "y": 13, "radius": 10, "name": "Nube superior" },
+    { "id": 2, "type": "circle", "x": 16, "y": 46, "radius": 8, "name": "Pájaro en el poste" },
+    { "id": 3, "type": "circle", "x": 18, "y": 86, "radius": 9, "name": "Regadera" },
+    { "id": 4, "type": "circle", "x": 68, "y": 88, "radius": 10, "name": "Hongos grandes" },
+    { "id": 5, "type": "circle", "x": 43, "y": 90, "radius": 7, "name": "Luciérnaga" }
+  ]
+}
