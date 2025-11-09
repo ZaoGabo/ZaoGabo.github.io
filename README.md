@@ -41,4 +41,4 @@ Coloca tus imágenes en `public/images` con los nombres `original.png` y `modifi
 
 - Tailwind se importa mediante CDN desde `index.html` para simplificar el prototipo; se puede migrar a una configuración completa si hace falta.
 - El modo edición de diferencias sólo se muestra cuando la app se ejecuta en modo desarrollo (`npm run dev`).
-- El archivo `vite.config.js` define `base: '/Encuentra-las-diferencias/'` para que los assets se resuelvan correctamente en GitHub Pages.
+- El archivo `vite.config.js` contiene la configuración de Vite. Si más adelante despliegas en un subdirectorio, ajusta `base` según sea necesario.

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
-// Vite configuration tailored for GitHub Pages deployment.
+// Vite configuration (generic). No GitHub Pages-specific settings.
 export default defineConfig({
-  base: '/',
+  // Add custom config here if needed
 });
